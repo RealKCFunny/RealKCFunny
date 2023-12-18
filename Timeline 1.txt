@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upcoming Shows</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: white;
+            background-color: black;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+            padding: 50px;
+        }
+        .header img {
+            max-width: 100%;
+            height: auto;
+        }
+        .header h1 {
+            font-size: 40px;
+            margin-top: 20px;
+        }
+        .show {
+            margin: 50px auto;
+            max-width: 800px;
+        }
+        .show img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .show-details {
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .contact {
+            text-align: center;
+            margin: 50px 0;
+            font-size: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="header-image.jpg" alt="Header Image">
+        <h1>Upcoming Shows</h1>
+    </div>
+    <div class="show">
+        <img src="show1-image.jpg" alt="Show 1 Image">
+        <div class="show-details">
+            <p>Show 1 Details - Date, Time, Venue</p>
+        </div>
+    </div>
+    <!-- Repeat the above div for each show -->
+    <div class="contact">
+        <p>Contact/Booking: contact@example.com</p>
+    </div>
+    <footer>
+        <p>&copy; 2023 Upcoming Shows</p>
+    </footer>
+</body>
+</html>
